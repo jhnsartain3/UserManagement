@@ -1,0 +1,35 @@
+﻿.primary-color {
+    background: #2196F3 !important;
+}
+
+.primary-color-light {
+    background: #6ec6ff !important;
+}
+
+.primary-color-dark {
+    background: #0069c0 !important;
+}
+
+.secondary-color {
+    background: #3F51B5 !important;
+}
+
+.secondary-color-light, textarea {
+    background: #009688 !important;
+}
+
+.secondary-color-dark {
+    background: #303F9F !important;
+}
+
+.primary-text-color {
+    color: #e1f5fe !important;
+}
+
+.secondary-text-color {
+    color: #1a1616 !important;
+}
+
+.divider-color {
+    background: #BDBDBD !important;
+}
