@@ -2,7 +2,7 @@
 
 With User Management administrators can make changes to their profile as well as maintaining other users. Users can view their profile and information.
 
-## Available Scripts
+## Endpoints
 
 ### `/users`
 * Ability to see a list of all users, and their account details
