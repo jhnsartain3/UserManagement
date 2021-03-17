@@ -5,6 +5,7 @@ import withAuthentication from "../contexts/withAuthentication";
 import User from "../pages/user";
 import Users from "../pages/users";
 import Authentication from "../pages/authentication";
+import PageNotFound from "../pages/pagenotfound";
 
 export default [{
     path: "/",
@@ -25,4 +26,8 @@ export default [{
     noFooter: true,
     noNavbar: true,
     component: Authentication
+}, {
+    path: "/404",
+    layout: DefaultLayout,
+    component: PageNotFound
 }];
