@@ -27,7 +27,7 @@ export default [{
     noNavbar: true,
     component: Authentication
 }, {
-    path: "/404",
+    path: "*",
     layout: DefaultLayout,
     component: PageNotFound
 }];
