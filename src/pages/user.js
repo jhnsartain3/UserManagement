@@ -37,6 +37,7 @@ function User(props) {
 
         userId = url.search.split('userId=')[1];
 
+        if(userId===undefined) userId =new AuthenticationService().getUserId();
         getUserModel(userId);
     }
 
