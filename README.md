@@ -18,3 +18,5 @@ With User Management administrators can make changes to their profile as well as
 ## Learn More
 
 Learn more at [SartainStudios.com](https://sartainstudios.com/EntityInformation?title=User%20Management)
+- https://usermanagement.sartainstudios.com
+- https://usermanagementtest.sartainstudios.com
