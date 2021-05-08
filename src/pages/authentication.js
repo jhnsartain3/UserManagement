@@ -40,16 +40,16 @@ class Authentication extends Component {
             let source = e.data.source;
 
             if (source === undefined && e.data.token !== null) {
-                if (e.data.token.token !== undefined)
-                    if (e.data.token.token.length > 75 && e.data.token.token.length < 100000) {
+                if (e.data.token !== undefined)
+                    if (e.data.token.length > 75 && e.data.token.length < 100000) {
                         console.log('Received token from Api');
-                        authenticationService.setToken(e.data.token.token)
+                        authenticationService.setToken(e.data.token)
                         console.log('Saved token to client');
                         this.props.history.replace('/');
                     } else
-                        console.log('Something is wrong with the token ' + e.data.token.token)
+                        console.log('Something is wrong with the token ' + e.data.token)
                 else
-                    console.log('Something is wrong with the token ' + e.data.token.token)
+                    console.log('Something is wrong with the token ' + e.data.token)
             }
         });
     }
